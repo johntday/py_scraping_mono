@@ -14,6 +14,7 @@ from langchain.chains import LLMChain
 
 load_dotenv()
 serper_api_key = os.getenv("SERPER_API_KEY")
+openai_api_key = os.getenv("OPENAI_API_KEY")
 azure_openai_key = os.getenv("AZURE_OPENAI_KEY")
 azure_openai_base = os.getenv("AZURE_OPENAI_BASE")
 
